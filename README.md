@@ -1,5 +1,17 @@
 # Estudo Web
 - Estudo (HTML, CSS, JS, SQL) e seus frameworks
-- Conhecendo o JavaScript ES6
-- Variáveis em JavaScript
-- Tipo de Dados em JavaScript
+- Estudos relacionados há programacão web, que tenho como foco ultilizar das melhores ferramentas
+para obter boas tecnicas de desenvolvimento. Estarei estudando Java Script, HTML, CSS e SQL e estarei
+documentando todo meu aprendizado.
+- A didática deste curso de Java Script ES6 é de autoria da escola de programadores Origamid, voltada
+mais para o front-end, todo conteúdo é de toda autoria deles, abaixo uma linha de tempo de meus estudos
+
+- Conhecendo o JavaScript ES6;
+
+- Variáveis em JavaScript ;
+
+- Tipo de Dados em JavaScript, fundamentos e exemplos práticos;
+
+- Números e Operadores em Java Script, fundamentos e exemplos práticos
+
+- : Operadores binários, e operadores unários ;
