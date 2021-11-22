@@ -25,4 +25,12 @@ console.log(areaQuadrada(4));
 areaQuadrada(6);
 areaQuadrada(2)
 
-addEventListener('click', function() {console.log('Oi')});
+addEventListener('click', function closs() {console.log('Oi')});
+
+
+function imc(peso, altura) {
+    var imc = peso / (altura * altura); 
+    console.log(imc);
+} 
+
+imc(80, 1.8)
