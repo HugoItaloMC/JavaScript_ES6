@@ -23,5 +23,6 @@ function areaQuadrada(lado){
 
 console.log(areaQuadrada(4));
 areaQuadrada(6);
-areaQuadrada(2);
+areaQuadrada(2)
 
+addEventListener('click', function() {console.log('Oi')});
