@@ -1,108 +1,33 @@
-/**
-Funcões 
-    Bloco de código que pode ser executado e reutilizado.
-Valores podem ser passados por uma funcão e a mesma retorna
-outro valor.
+// Crie uma funcão para verificar se um valor é Truthy 
 
-function areaQuadrada(lado){
-    return lado * lado;
+function v(vp) {
+ return !!vp;
 }
 
 
-##
-areaQuadrada(4);
-areaQuadrada(6);
-areaQuadrada(2);
-## Chamada de function declaration
-*/
+// Crie uma funcão matemática que retorna o perímetro de um quadrado 
 
-
-function areaQuadrada(lado){
-    return lado * lado;
+function quadrado(p) {
+    return p * 4;
 }
 
-console.log(areaQuadrada(4));
-areaQuadrada(6);
-areaQuadrada(2)
+console.log(quadrado(2));
 
-addEventListener('click', function closs() {console.log('Oi')});
+// Crie uma funcão que retorne seu nome completo
 
+function nomeCompleto(nome, sobre) { 
+    
+    return `Nome completo ${nome} ${sobre}`;
+}
 
-function imc(peso, altura) {
-    var imc = peso / (altura * altura); 
-    console.log(imc);
-} 
+console.log(nomeCompleto('Hugo', 'Italo'))
 
-imc(80, 1.8);
+// Crie uma funcão que verifique se o número é par
 
-
-function terceiraIdade(idade) {
-    if ( typeof idade !== 'number') {
-        return 'Por favor preencha com número'
-    }else if (idade >= 60) {
-        return true ;
-    } else {
-        return false ;
+function isEven(numero){
+    if (numero % 2 === 0) {
+        return ` ${numero} é par` ;
+    }else {
+        return `${numero} é impar `;
     }
 }
-
-console.log(terceiraIdade('oi'));
-
-/*
- Variáveis e funcões definidas dentro de um bloco ' {} ', não são visíveis
-fora dele.
-
-function precisoVisitar(paisesVisitados){
-    var totalPaises = 193 ;
-    return `Ainda Faltam ${totalPaises - paisesVisitados} paises`;
-}
-
-console.log(totalPaises) ;  // Erro totalPaises não definido.
-
-*/
-
-
-function precisoVisitar(paisesVisitados){
-    var totalPaises = 193 ;
-    return `Ainda Faltam ${totalPaises - paisesVisitados} paises`;
-}
-
-/**
-Escopo léxico, funões conseguem acessar variáveis que foram criadas no contexto pai.
-
-
-var profissao = 'Design' ;
-
-
-function dados() {
-    var nome = 'André' ;
-    var idade = 18 ;
-    function outroDados(){
-        var endereco = 'Rio de Janeiro' ; 
-        var idade = 29 ;
-        return `${nome}, ${idade}, ${endereco}, ${profissao}` ;
-    }
-    return outroDados();
-}
-
-
- */
-
-
-
-var profissao = 'Design' ;
-
-
-function dados() {
-    var nome = 'André' ;
-    var idade = 18 ;
-    function outroDados(){
-        var endereco = 'Rio de Janeiro' ; 
-        var idade = 29 ;
-        return `${nome}, ${idade}, ${endereco}, ${profissao}` ;
-    }
-    return outroDados();
-}
-
-console.log(dados()); // retorna os dados
-// outrosDados(); // Retorna erro
