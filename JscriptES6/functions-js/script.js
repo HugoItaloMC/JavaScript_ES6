@@ -30,4 +30,18 @@ function isEven(numero){
     }else {
         return `${numero} é impar `;
     }
+// }
+// Crie uma funcão passando no o argumento no typeof 
+
+function tipoDeDado(dado) {
+    return typeof dado;
 }
+
+// addEventeListener é uma funcão nativa do js
+// O primeiro parametro é o evento que ocorre e o segundo Callback
+// Ultilize essa funcão para mostrar no console o seu nome completo
+// quando o evento 'scroll'ocorrer
+
+addEventListener('scroll', function() {
+    console.log('Hugo Italo');
+});

@@ -12,6 +12,13 @@ mais para o front-end, todo conteúdo é de toda autoria deles, abaixo uma linha
 
 - Tipo de Dados em JavaScript, fundamentos e exemplos práticos;
 
-- Números e Operadores em Java Script, fundamentos e exemplos práticos
+- Números e Operadores em Java Script, fundasmentos e exemplos práticos
 
 - : Operadores binários, e operadores unários ;
+
+- Booleanos e Condicionais fundamentos e exemplos práticos ;
+
+- functions JavaScript fundamentos e exemplos práticos ;
+ - : ultilizando functions com estruturas condicionais ' if() ' ;
+
+ - Objeto JavaScript , fundamentos e exemplos práticos ;
